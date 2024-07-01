@@ -1,0 +1,200 @@
+/* .log-container{
+  background-image: url("/images/authImages/log-realtor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.min-height-login {
+    min-height: calc(100vh - 125px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-tag {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh - 125px);
+      background-color: #0000007a; */
+}
+
+.error {
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.box-shaddow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: unset;
+    width: calc(100% - 100px) !important;
+    padding: 30px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.rooms-container-height {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.value {
+    margin: 10px 0;
+}
+
+.popup1 h3 {
+    margin: 10px 0;
+}
+
+.img-style {
+    width: 50%;
+}
+
+.img-style img {
+    width: 100%;
+}
+
+.flex-sec {
+    width: 25%;
+    display: inline-block;
+}
+
+.popup1 .border {
+    border: 1px solid #80808059 !important;
+    border-radius: 10px;
+}
+
+.error {
+    border: 2px solid #ff0000;
+}
+
+.autocomplete-dropdown-container div {
+    border-bottom: 1px solid #8080802e;
+    padding: 12px 0;
+}
+
+.autocomplete-dropdown-container {
+    width: 38%;
+    border-radius: 20px;
+    margin: 13px 4px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.bg-image-box,
+.bg-image-box2 {
+    background-image: url('/images/shrinkCardimages/proBG.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.bg-image-box2 {
+    background-image: url('/images/shrinkCardimages/customerBG.jpg')
+}
+
+.bg-image-box:before,
+.bg-image-box2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, black, #00000061);
+    border-radius: var(--bs-border-radius-xl) !important;
+}
+
+.slider-rangee {
+    color: #dc3545;
+}
+
+.slider-rangee .MuiSlider-thumb {
+    width: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.progress-slidee .MuiLinearProgress-bar {
+    background-color: #dc3545;
+}
+
+.imagessss>img {
+    width: 70px;
+}
+
+.cs-dialogg-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #dc3545;
+    border-radius: 6px 0 6px 6px;
+}
+
+.cs-dialogg-close>svg.MuiSvgIcon-root {
+    fill: #fff;
+    padding: 5px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+
+.cs-dialogg>.MuiDialog-container>.MuiPaper-root {
+    overflow: hidden;
+    padding-block: 0 !important;
+}
+
+.cs-dialogg>.MuiDialog-container>.MuiPaper-root>.cs-dialogg-container {
+    overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .mob-space {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .autocomplete-dropdown-container {
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 0 13px;
+    }
+}
+
+.errorSub.MuiRadio-root .MuiSvgIcon-root {
+    fill: red !important;
+}
+
+.errorTerm.MuiCheckbox-root .MuiSvgIcon-root {
+    fill: red !important;
+}
